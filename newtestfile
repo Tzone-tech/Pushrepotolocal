@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp
+  label: prod
+spec:
+  container:
+    image: nginx
+    name: webapp
+    
