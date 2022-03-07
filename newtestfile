@@ -7,4 +7,6 @@ spec:
   container:
     image: nginx
     name: webapp
-    
+  replicaset: 6
+  nodeaffinity
+
